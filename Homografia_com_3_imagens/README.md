@@ -1,5 +1,5 @@
 <p align="center">
-  <b>Atividade Homografia com 3 imagens</b>
+  <h1>Atividade Homografia com 3 imagens</h1>
 </p>
 
 
