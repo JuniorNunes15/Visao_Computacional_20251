@@ -96,7 +96,7 @@ img1_transformed = cv2.warpPerspective(image1, transformation_matrix, (width, he
 
 # Criar uma imagem para mostrar a combinação
 combined_img = cv2.addWeighted(img1_transformed, 0.5, image2, 0.5, 0)
-
+cv2.imwrite("combined_image.jpg", combined_img)
 
 # Mostrar a imagem combinada
 cv2.imshow("Imagem Combinada", combined_img)
@@ -153,7 +153,7 @@ img_transformed2 = cv2.warpPerspective(combined_img, transformation_matrix1, (wi
 
 
 combined_img2 = cv2.addWeighted(img_transformed2, 0.5, image3, 0.5, 0)
-
+cv2.imwrite("combined_image2.jpg", combined_img2)
 
 # Mostrar a imagem combinada
 cv2.imshow("Imagem Combinada", combined_img2)
@@ -211,6 +211,7 @@ output_image[-min_y:height2-min_y, -min_x:width2-min_x] = image3
 output_image = np.where(img1_transformed.sum(axis=-1, keepdims=True)!=0, img1_transformed, output_image)
 
 # Exibir a imagem combinada
+cv2.imwrite("output_image.jpg", output_image)
 cv2.imshow("Imagem Combinada", output_image)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
