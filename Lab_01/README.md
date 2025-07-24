@@ -4,7 +4,7 @@
     </p>
 </h1>
 
-### Questão: Trocar a cor de pele das personagens na imagem ‘gamora_nebula.jpg’[gamora_nebula.jpg](./gamora_nebula.jpg). As demais partes da imagem devem permanecer inalteradas.
+### Questão: Trocar a cor de pele das personagens na imagem [gamora_nebula.jpg](./gamora_nebula.jpg). As demais partes da imagem devem permanecer inalteradas.
 
 
 ## Resposta:
