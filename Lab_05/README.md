@@ -5,38 +5,10 @@
 </h1>
 
 ### Questão: Utilize uma câmera para capturar duas fotos de um mesmo local mas obtidas a partir de ângulos ligeiramente diferentes. Para cada um dos descritores mostrados no artigo abaixo, monte uma imagem panorâmica composta pelas duas imagens capturadas.
-### Você pode usar os recursos recomendados. Veja as seções [Referências de Artigo](#-referência-do-artigo) e [Links Úteis](#links-úteis) para mais informações.
+### Você pode usar os recursos recomendados. Veja as seções [Referências de Artigo](#-referência-do-artigo) e [Links Úteis](#-links-úteis) para mais informações.
 
-ca  
-ca  
-ca  
-ca  
-ca  
-ca  
-ca  
-ca  
-ca  
-ca  
-ca  
-ca  
-ca  
-ca  
-ca  
-ca  
-ca  
-ca  
-ca  
-ca  
-ca  
-ca  
-ca  
-ca  
-ca  
-ca  
-ca  
-ca  
-ca  
-ca  
+
+## Resposta:
 
 
 ## 📚 Referência do Artigo
@@ -52,5 +24,3 @@ ca
 - 📘 [Tutorial - Towards Data Science](https://towardsdatascience.com/image-panorama-stitching-with-opencv-2402bde6b46c)
 - 🛠️ [Tutorial oficial - OpenCV Stitcher](https://docs.opencv.org/4.x/d8/d19/tutorial_stitcher.html)
 - 🎥 [Vídeo explicativo - YouTube](https://www.youtube.com/watch?v=8oFRmdDum5k)
-
-## Resposta:
