@@ -4,7 +4,7 @@
     </p>
 </h1>
 
-### Questão: Usando com obase o [código](./homography_Or.py) fornecido, aplique o processo de homografia usando 3 imagens para montar um panorama.
+### Questão: Trocar a cor de pele das personagens na imagem ‘gamora_nebula.jpg’[gamora_nebula.jpg](./gamora_nebula.jpg). As demais partes da imagem devem permanecer inalteradas.
 
 
 ## Resposta:
