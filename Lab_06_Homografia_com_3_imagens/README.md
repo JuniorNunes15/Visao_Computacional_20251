@@ -1,6 +1,6 @@
 <h1>
     <p align="center">
-        Atividade Homografia com 3 imagens
+        Lab 06 Homografia com 3 imagens
     </p>
 </h1>
 

@@ -4,12 +4,7 @@
     </p>
 </h1>
 
-### Questão: Usando com obase o [código](./homography_Or.py) fornecido, aplique o processo de homografia usando 3 imagens para montar um panorama.
-1) Utilize uma câmera para capturar duas fotos de um mesmo local mas obtidas a partir de
-ângulos ligeiramente diferentes.
-Para cada um dos descritores mostrados no artigo abaixo, monte uma imagem panorâmica
-composta pelas duas imagens capturadas.
-Artigo:
+### Questão: Utilize uma câmera para capturar duas fotos de um mesmo local mas obtidas a partir de ângulos ligeiramente diferentes. Para cada um dos descritores mostrados no artigo abaixo, monte uma imagem panorâmica composta pelas duas imagens capturadas. Artigo:
 S. A. K. Tareen and Z. Saleem, "A comparative analysis of SIFT, SURF, KAZE, AKAZE, ORB, and
 BRISK," 2018 International Conference on Computing, Mathematics and Engineering
 Technologies (iCoMET), 2018, pp. 1-10, doi: 10.1109/ICOMET.2018.8346440.
