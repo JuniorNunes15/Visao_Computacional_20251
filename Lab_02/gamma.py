@@ -43,16 +43,3 @@ cv2.createTrackbar('gamma','image',0,100,callback_trackbar)
 
 cv2.imshow('image',im)
 waitKey('image', 27) #27 = ESC	
-
-
-
-
-
-
-
-
-
-
-
-
-
