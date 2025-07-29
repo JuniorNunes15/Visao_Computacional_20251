@@ -8,10 +8,10 @@
 
 
 ## Resposta:
-Para resolver a questão, dei uma mudado na código, não estava sabendo como mudaria completamente tudo de forma correta, a pele verde até que foi, mas a azul tive muitos problemas para acertar, então no final ficou dessa forma o resultado:
+Para resolver a questão, dei uma mudada na código, não estava sabendo como mudaria completamente tudo de forma correta, parte da pele verde foi, mas a azul ainda pegou partes desnecessarias da imagem, mas pelo menos foi oque consegui fazer.:
 
 <p align="center">
   <img src="resultado.jpg" width="50%"/>
 </p>
 
-O código com a resposta está em [rgb.py](./rgb.py).
+O código com a resposta está em [lab1.py](./lab1.py).
