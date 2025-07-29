@@ -8,3 +8,9 @@
 
 
 ## Resposta:
+Para resolver a questão, dei uma mudado na código, não estava sabendo como mudaria completamente tudo de forma correta, a pele verde até que foi, mas a azul tive muitos problemas para acertar, então no final ficou dessa forma o resultado:
+
+<p align="center">
+  <img src="resultado.jpg" width="200"/>
+</p>
+

@@ -3,47 +3,34 @@ import cv2
 import numpy as np
 import matplotlib.pyplot as plt
 
-#abre imagem
+# Abre imagem
 filename = sys.argv[1]
 im = cv2.imread(filename)
 
-#converte cores
-im = cv2.cvtColor(im, cv2.COLOR_BGR2HSV)
+# Converte para HSV
+hsv = cv2.cvtColor(im, cv2.COLOR_BGR2HSV)
 
-#split
-#im_r,im_g,im_b = cv2.split(im)
-im_r = im[:,:,0]
-im_g = im[:,:,1]
-im_b = im[:,:,2]
+# Máscara para pele verde (Gamora) - faixa mais restrita
+lower_green = np.array([45, 100, 50])
+upper_green = np.array([75, 255, 200])
+mask_green = cv2.inRange(hsv, lower_green, upper_green)
 
+# Máscara para pele azul (Nebulosa) - mais fria e menos roxa
+lower_blue = np.array([100, 80, 50])
+upper_blue = np.array([125, 255, 200])
+mask_blue = cv2.inRange(hsv, lower_blue, upper_blue)
 
+# Troca verde por azul
+hsv[np.where(mask_green != 0)] = [115, 220, 200]  # azul saturado
 
-#combina as imagens
-im = cv2.merge([im_r,im_g,im_b])
+# Troca azul por verde
+hsv[np.where(mask_blue != 0)] = [60, 220, 180]   # verde saturado
 
-#mostra imagens
-imagens = [im_r,im_g,im_b]
+# Converte de volta para BGR
+output = cv2.cvtColor(hsv, cv2.COLOR_HSV2BGR)
 
-
-
-x_values = np.arange(256)
-
-plt.subplot(1,3,1),plt.imshow(imagens[0],cmap = 'gray')
-plt.subplot(1,3,2),plt.imshow(imagens[1],cmap = 'gray')
-plt.subplot(1,3,3),plt.imshow(imagens[2],cmap = 'gray')
-
-
-
+cv2.imwrite('resultado.jpg', output)
+plt.imshow(cv2.cvtColor(output, cv2.COLOR_BGR2RGB))
+plt.axis('off')
 plt.show()
-
-
-
-
-
-
-
-
-
-
-
 
