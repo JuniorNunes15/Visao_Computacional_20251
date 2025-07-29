@@ -8,7 +8,7 @@
 
 <p style="color:red">OBS:</p> 
 
-Se por alguma razão as imagens não aparecerem, aperte nesse [link](./https://drive.google.com/drive/u/3/folders/1hJKmnn5sAdxyLd4pMh5MvbxgUwq1tDji) para ver as imagens pelo Drive.
+Se por alguma razão as imagens não aparecerem, aperte nesse [link](https://drive.google.com/drive/u/3/folders/1hJKmnn5sAdxyLd4pMh5MvbxgUwq1tDji) para ver as imagens pelo Drive.
 
 ## Resposta:
 Para resolver a questão, dei uma mudada na código, não estava sabendo como mudaria completamente tudo de forma correta, parte da pele verde foi, mas a azul ainda pegou partes desnecessarias da imagem, mas pelo menos foi oque consegui fazer.:
