@@ -15,3 +15,40 @@
 
 
 ## Resposta:
+
+Questão 1: Foi feito o código [lab7_1.py](./lab7_1.py) para resolver a questão. Ela teve como imput a imagem:
+
+<p align="center">
+  <img src="images/oscar.jpg" width="500">
+</p>
+
+E ela resultou como imagens o seguinte, indo da menor para a maior respectivamente:
+
+<p align="center">
+  <img src="respostas_1/resultado_320x240.jpg">
+  <img src="respostas_1/resultado_640x480.jpg" width="500">
+  <img src="respostas_1/resultado_800x600.jpg" width="500">
+  <img src="respostas_1/resultado_1280x720.jpg" width="500">
+  <img src="respostas_1/resultado_1920x1080.jpg" width="500">
+</p>
+
+E essa é a tabela de execução:
+<p align="center">
+  <img src="tempo_1.png" width="500">
+</p>
+
+Questão 02:
+
+Da questão 2, foi feito o código [lab7_2.py](./lab7_2.py) que gerava os seguintes resultados:
+
+<p align="center">
+  <img src="resposta_2/resultado_320x240_oscar.jpg">
+  <img src="resposta_2/resultado_640x480_oscar.jpg" width="500">
+  <img src="resposta_2/resultado_800x600_oscar.jpg" width="500">
+  <img src="resposta_2/resultado_1280x720_oscar.jpg" width="500">
+</p>
+
+Com os seguintes tempos:
+<p align="center">
+  <img src="tempo_2.png" width="500">
+</p>
