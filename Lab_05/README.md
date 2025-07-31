@@ -10,6 +10,19 @@
 
 ## Resposta:
 
+Questão: Esse laboratorio foi feito após a questão de homografica com 3 imagens, por isso, foi pego 2 das imagens da outra questão e tambem parte do código para unir as 2 imagens. O código resultante ficou em [lab5.py](./lab5.py), com as seguintes imagens:
+
+<p align="center">
+  <img src="imagens/01.jpg" width="400"/>
+  <img src="imagens/02.jpg" width="400"/>
+</p>
+
+Aplicando o código, gera a seguinte imagem:
+
+<p align="center">
+  <img src="resultado.jpg">
+</p>
+
 
 ## 📚 Referência do Artigo
 > S. A. K. Tareen and Z. Saleem,  
