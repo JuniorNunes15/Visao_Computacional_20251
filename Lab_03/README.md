@@ -20,19 +20,35 @@ Sobre os resultados das imagens, elas ficaram assim:
 
 <p align="center">
   <img src="imagens/halftone.png" width="500"/>
-  =   RESULTADO   ==>
+</p>
+<p align="center">
+    ==   RESULTADO   ==
+</p>
+<p align="center">
   <img src="respostas/Figure_1_res.webp" width="500"/>
 </p>
 
+
+
 <p align="center">
   <img src="imagens/pieces.png" width="500"/>
-  =   RESULTADO   ==>
+</p>
+<p align="center">
+    ==   RESULTADO   ==
+</p>
+<p align="center">
   <img src="respostas/Figure_2_res.webp" width="500"/>
 </p>
 
+
+
 <p align="center">
   <img src="imagens/salt_noise.png" width="500"/>
-  =   RESULTADO   ==>
+</p>
+<p align="center">
+    ==   RESULTADO   ==
+</p>
+<p align="center">
   <img src="respostas/Figure_3_res.webp" width="500"/>
 </p>
 
@@ -42,7 +58,11 @@ A primeira imagem da Oguri Cap é a original, a segunda é a com os filtros apli
 
 <p align="center">
   <img src="oguri.png" width="400"/>
-  =   Oguri Cap em tom cinza   ==>
+</p>
+<p align="center">
+  ==   Oguri Cap em tom cinza   ==
+</p>
+<p align="center">
   <img src="respostas/oguri_cinza.jpg" width="400"/>
 </p>
 
@@ -51,6 +71,10 @@ Questão 03: A resposta está em [lab3_3.py](./lab3_3.py), repetindo a mesma ima
 
 <p align="center">
   <img src="oguri.png" width="400"/>
-  =   Oguri Cap em tom sépia   ==>
+</p>
+<p align="center">
+  ==   Oguri Cap em tom sépia   ==
+</p>
+<p align="center">
   <img src="respostas/oguri_sepia.jpg" width="400"/>
 </p>
